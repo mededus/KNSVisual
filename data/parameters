@@ -1,0 +1,58 @@
+#alg_iterations
+5
+#alg_datasets
+3
+#alg_samples
+1
+#alg_estimation
+200
+#alg_learncycles
+10
+#alg_mse
+1
+#alg_heredity
+10
+#alg_builtinextractor
+0
+#alg_classes
+10
+#alg_act_function
+0
+#alg_use_rbf_patterns
+1
+numbers.pattern
+#alg_ETA_through_learncycles
+0 0.00005
+4 0.00002
+12 0.00001
+70 0.000005
+90 0.000001
+-1
+#alg_MI_through_learncycles
+0 0.02
+-1
+#classifier_filename
+weak012567r.lenet
+weak023578r.lenet
+weak134689r.lenet
+#classifier_structure
+2 2 2
+2 2 2
+2 2 2
+#dataset_names
+data-012567
+data-023578
+data-134689
+#current_ensemble
+0
+#strong_ensemble
+0
+#alg_procedure
+0
+#alg_voting_scheme
+20
+#alg_loss_function
+2
+#alg_radius
+1
+#end_of_parameters
