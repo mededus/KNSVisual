@@ -1,0 +1,31 @@
+#layers
+2 2 2
+#input
+36 36
+#convolution
+3 32 32 5 5
+#connection
+1
+1
+1
+#sampling
+3 16 16 2 2
+#convolution
+4 12 12 5 5
+#connection
+1 1 0
+0 1 1
+1 0 1
+1 1 1
+#sampling
+4 6 6 2 2
+#classic
+120 1 144
+#classic
+100 1 120
+#output
+24 1 100
+#membership
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+#parameters
+0 0 0
