@@ -1,0 +1,298 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Slovak resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SKY)
+#ifdef _WIN32
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\LenetW.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LenetW.ico"
+#endif    // Slovak resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About LenetW"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "LenetW Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Dusan Medera, Copyright (C) 2003",IDC_STATIC,40,25,162,
+                    8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_LENETW_DIALOG DIALOGEX 0, 0, 606, 361
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LenetW"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,395,302,193,29
+    GROUPBOX        "Input",IDC_STATIC,7,7,177,75,0,0,HIDC_STATIC
+    GROUPBOX        "Output - distribution codes layer",IDC_STATIC,189,120,
+                    410,30
+    GROUPBOX        "Network",IDC_STATIC,7,82,178,261
+    PUSHBUTTON      "Open NET file",IDC_BUTTON1,35,317,117,16
+    PUSHBUTTON      "Open PATTERN file",IDC_BUTTON2,230,319,117,16
+    GROUPBOX        "Patterns",IDC_STATIC,189,260,190,82
+    EDITTEXT        IDC_EDIT8,267,287,41,12,ES_RIGHT | ES_AUTOHSCROLL
+    RTEXT           "Test pattern # :",IDC_STATIC,206,289,58,8
+    EDITTEXT        IDC_EDIT9,267,300,41,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    RTEXT           "Patterns :",IDC_STATIC,210,303,54,11
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,217,271,140,14,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "<",IDC_BUTTON3,202,271,11,13,WS_DISABLED
+    PUSHBUTTON      ">",IDC_BUTTON4,361,271,11,13,WS_DISABLED
+    GROUPBOX        "Structure - left click to zoom",IDC_STATIC,189,7,410,
+                    111
+    EDITTEXT        IDC_EDIT11,157,56,14,12,ES_CENTER | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Run",IDC_BUTTON8,395,270,193,28,WS_DISABLED
+    RTEXT           "Answer:",IDC_STATIC,118,56,27,11
+    PUSHBUTTON      "Go to",IDC_BUTTON5,314,287,32,26
+    CTEXT           "Dusan Medera, Katedra kybernetiky a umelej inteligencie, FEI TUKE, SK",
+                    IDC_STATIC,7,346,592,8
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    18,94,155,216
+    RTEXT           "Activation:",IDC_STATIC,86,66,59,11
+    EDITTEXT        IDC_EDIT12,151,66,26,12,ES_CENTER | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Convolution Fields - left click to zoom",IDC_STATIC,189,
+                    150,410,108
+    EDITTEXT        IDC_EDIT1,351,292,23,13,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Radius:",IDC_STATIC,565,243,27,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT13,549,231,42,12,ES_RIGHT | NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+END
+
+IDD_ZOOM DIALOGEX 0, 0, 124, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LenetW.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "LenetW.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LENETW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 599
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 354
+    END
+
+    IDD_ZOOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 117
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\LenetW.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_PAINTMENU MENU 
+BEGIN
+    POPUP "Paint"
+    BEGIN
+        MENUITEM "Black",                       ID_PAINT_BLACK
+        MENUITEM "White",                       ID_PAINT_WHITE
+        MENUITEM SEPARATOR
+        MENUITEM "2 pixels",                    ID_PAINT_2PIXELS
+        MENUITEM "4 pixels",                    ID_PAINT_4PIXELS
+        MENUITEM "6 pixels",                    ID_PAINT_6PIXELS
+        MENUITEM "8 pixels",                    ID_PAINT_8PIXELS
+        MENUITEM "10 pixels",                   ID_PAINT_10PIXELS
+        MENUITEM SEPARATOR
+        MENUITEM "Clear",                       ID_PAINT_CLEAR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About LenetW..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\LenetW.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

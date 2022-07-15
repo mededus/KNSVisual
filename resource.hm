@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by LenetW.rc
+//
+#define HIDC_STATIC                     0x8066ffff    // IDD_LENETW_DIALOG [English (U.S.)]

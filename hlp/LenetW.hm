@@ -1,0 +1,27 @@
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+HID_PAINT_BLACK                         0x10083
+HID_PAINT_WHITE                         0x10084
+HID_Menu                                0x10085
+HID_PAINT_2PIXELS                       0x10086
+HID_PAINT_4PIXELS                       0x10087
+HID_PAINT_6PIXELS                       0x10088
+HID_PAINT_8PIXELS                       0x10089
+HID_PAINT_10PIXELS                      0x1008A
+HID_Menu139                             0x1008B
+HID_PAINT_CLEAR                         0x1008C
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MANIFEST                           0x20001
+HIDR_MAINFRAME                          0x20080
+HIDR_PAINTMENU                          0x20082
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_LENETW_DIALOG                      0x20066
+HIDD_ZOOM                               0x20081
+ 
+// Frame Controls (IDW_*) 
